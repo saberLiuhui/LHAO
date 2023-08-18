@@ -1,0 +1,32 @@
+{
+  "name": "LHAO",
+  "version": "0.1.0",
+  "summary": "A short description of LHAO.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuhui/LHAO",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuhui": "liuhui37@zuoyebang.com"
+  },
+  "source": {
+    "git": "https://github.com/liuhui/LHAO.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LHAO/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "API",
+      "source_files": "LHAO/Classes/API/**/*"
+    },
+    {
+      "name": "Business",
+      "source_files": "LHAO/Classes/Business/**/*"
+    }
+  ]
+}

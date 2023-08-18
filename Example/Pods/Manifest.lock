@@ -1,0 +1,20 @@
+PODS:
+  - LHAO (0.1.0):
+    - LHAO/API (= 0.1.0)
+    - LHAO/Business (= 0.1.0)
+  - LHAO/API (0.1.0)
+  - LHAO/Business (0.1.0)
+
+DEPENDENCIES:
+  - LHAO (from `../`)
+
+EXTERNAL SOURCES:
+  LHAO:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LHAO: 407a28f011017c760674905df1df6dba426f2d70
+
+PODFILE CHECKSUM: b2216c9a060f39e7e55f3cf699d3cb92b1a7fbf2
+
+COCOAPODS: 1.12.1
